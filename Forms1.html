@@ -104,26 +104,48 @@
                 <p>
                     <!-- Creating a scrollbar with attribute of range and ID. With min and max -->
                     <label for="sbar">Peter's ScrollBar</label>
-
                     <input type="range" id="sbar" min="5" max="10" name="scrollbar"> 
                 </p>
 
-                <!-- Creating a lable for TextArea adding attribute of rows and columns with placeholder  -->
+                <!-- Creating a label and ID for TextArea element adding rows and columns with placeholder  -->
                 <p>
 
                     <label for="requests">type in special requests</label>
-
                     <textarea id="requests" name="textArea" rows="16" cols="16" placeholder="Type Here"></textarea>
 
 
-                </p>                
+                </p>  
+                
 
                     <button>Peter</button>
 
             </form>
-
     </section>
+    <hr>
+    <!-- Creating a form for validation -->
+    <section>
+            <form action="/bananas">
+                    <!-- Creating a texbox requiring the textbox to be filled  -->
+                    <label for="Peter">TextBox</label> 
+                    <input type="text" name="textbox" id="Peter" required> 
+                <p>
+                    <!-- Creating label for password with attribute and IDs and minimum  and maximum length of input   -->
+                    <label for="password">Password</label>
+                    <input type="textbox" name="password" id="password" minlength="5" maxlength="10">
+                </p>    
+                    <!--Creating an input with the email attribute requiring input -->
+                <p>
+                    
+                    <input type="email" required>
 
+                </p>
+
+
+                <button type="submit">Validation Buttom</button>
+
+
+            </form>
+    </section>
 
 
 </body>
