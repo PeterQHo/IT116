@@ -11,9 +11,11 @@
 
 
 <body>
-    <h1>Please Fill out the form below</h1>
-
+    <section>
+        <h1>Please Fill out the form below</h1>
+        <!--  -->
         <form>
+            <!--  -->
             <label for="First">First Name</label>
             <input type="text" name="FirstN" id="First" placeholder="First Name">
           <p>
@@ -22,16 +24,32 @@
          </p>
 
          <p>
+             <!--  -->
             <label for="food">Which food would you like to eat?</label>
 
+            <select name="foods" id="food">
+                <option value="Chicken">Chicken</option>
 
+                <option value="Beef">Beef</option>
+
+                <option value="Pork">Pork</option>
+
+            </select>
          </p>
 
+         <p>
+             <!--  -->
+            <label for="Allegies">Do you have any allegies?</label>
+            <textarea id="Allegies" name="textArea" rows="5" cols="5" placeholder="Hey Monte!"></textarea>
 
+
+         </p>  
+
+            <button>Send</button>
 
 
         </form>
-
+    </section>    
 
 
     
