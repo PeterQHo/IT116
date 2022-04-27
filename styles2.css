@@ -1,0 +1,25 @@
+h1 {
+/* To change the color of h1 header to the color green */
+    Color: Green;
+
+}
+
+h2 {
+/* To change the color of h2 header to the color Purple */
+    Color: Purple;
+    
+}
+
+p {
+/* Change the color of paragraph text to pink with text background being green */
+    Color: Pink;
+    background-color: green;
+
+}
+
+button {
+/* Change the color of button text to white with text background being blue */
+    Color: White;
+    background-color: blue;
+
+}
