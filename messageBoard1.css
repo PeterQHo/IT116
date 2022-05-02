@@ -1,7 +1,41 @@
 /* Selecto all element and chang the color and background */
-*{
+/* * {
 
     color: pink;
     background-color: green;
+
+} */
+
+/* Selecting the body element and changing the background to lightblue */
+
+body {
+
+    background-color: lightblue;
+
+}
+/* changing the the font size of the button element */
+button {
+
+    font-size: 30px;
+
+}
+/*  */
+
+h1,h2 {
+
+    color: grey;
+
+}
+/* Link id of signup to change the background and text color*/
+#signup {
+
+    background-color: pink;
+    color: blue;
+
+}
+/*  */
+.tag {
+
+    color: red;
 
 }
