@@ -1,0 +1,7 @@
+/* Selecto all element and chang the color and background */
+*{
+
+    color: pink;
+    background-color: green;
+
+}
