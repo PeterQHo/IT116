@@ -1,0 +1,44 @@
+/*  */
+.crimson {
+
+    color: crimson;
+
+}
+
+.green {
+
+    color: green;
+
+}
+
+.yellow {
+
+    color: 	#FBEC5D;
+
+}
+
+.red {
+
+    color: red;
+
+}
+
+.orange {
+
+    color: orange;
+
+}
+/*  */
+#yes {
+
+    color: white;
+    background-color: green;
+
+}
+
+#no {
+
+    color: white;
+    background-color: red;
+
+}

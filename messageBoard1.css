@@ -33,9 +33,23 @@ h1,h2 {
     color: blue;
 
 }
-/*  */
+/* Selecting all tags using class atrubites to change color */
 .tag {
 
     color: red;
+
+}
+/*  */
+.post a{
+
+    color: brown;
+
+}
+
+/*  */
+
+footer > a {
+    color: yellow;
+
 
 }
