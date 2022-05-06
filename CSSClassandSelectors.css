@@ -1,4 +1,4 @@
-/*  */
+/* Using a class selector to select different classes to change colors of text */
 .crimson {
 
     color: crimson;
@@ -28,7 +28,7 @@
     color: orange;
 
 }
-/*  */
+/* Using ID selector to select certain IDs to change color or text and background  */
 #yes {
 
     color: white;

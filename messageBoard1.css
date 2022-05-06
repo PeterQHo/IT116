@@ -19,7 +19,7 @@ button {
     font-size: 30px;
 
 }
-/*  */
+/* Selecting two different headers and changing text color */
 
 h1,h2 {
 
@@ -39,17 +39,53 @@ h1,h2 {
     color: red;
 
 }
-/*  */
+/* using descendant selector for post and seleting anchor tags */
 .post a{
 
     color: brown;
 
 }
 
-/*  */
+/* using descendant selector for footer and seleting anchor tags */
 
 footer > a {
     color: yellow;
 
+
+}
+/* Selecting a spefic anchor with key word to change color */
+a[href*="google"] {
+
+    color: darkorange;
+
+}
+
+/* using a pseudo class to change color when user hover over it  */
+
+button:hover {
+
+    background-color: red;
+    color: aquamarine;
+
+}
+
+/* Nested pseudo class to select the button that are nested in post the to change color to green when pressed */
+
+.post button:active {
+
+    background-color: green;
+
+}
+/* Using a pseudo element to select the first letter of all h2 tags and change font size */
+h2::first-letter {
+
+    font-size: 50px;
+
+}
+
+/* Using pseudo element to select the first line of the p tag and change it to green  */
+p::first-line {
+
+    color: green;
 
 }
