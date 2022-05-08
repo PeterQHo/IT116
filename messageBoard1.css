@@ -26,7 +26,7 @@ h1,h2 {
     color: grey;
 
 }
-/* Link id of signup to change the background and text color*/
+/* Using id selector of signup to change the background and text color*/
 #signup {
 
     background-color: pink;
@@ -53,7 +53,7 @@ footer > a {
 
 
 }
-/* Selecting a spefic anchor with key word to change color */
+/* Selecting a specific anchor with key word to change color */
 a[href*="google"] {
 
     color: darkorange;
