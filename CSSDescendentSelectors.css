@@ -1,5 +1,5 @@
-/* Using Descendent selector to select all anchor tag in h1 tag to change font size and color */
-h1 > a {
+/* Using Descendent selector to select all anchor tag in header tag to change font size and color */
+header > a {
 
     font-size: 30px;
     color: blue;
