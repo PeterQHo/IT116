@@ -6,8 +6,8 @@ header > a {
 
 }
 
-/* Using ID selector to select a specific ID to change color */
-#schools {
+/* Using attribute selector to select a specific class to change color */
+.schools {
 
     color: red;
 
