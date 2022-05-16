@@ -30,7 +30,7 @@
 
             <div class="collapse navbar-collapse" id="navbar1">
                 <!-- Creating a list in the navagiation bar with anchor tags and hyperlinks-->
-                <ul class="navbar-nav d-flez me-auto">
+                <ul class="navbar-nav d-flex me-auto">
 
                     <li class="nav-item active">
                         <a class="nav-link" href="http://www.twitch.com">Twitch</a>
@@ -43,11 +43,11 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="http://www.microsoft.com">Microsoft</a>
                     </li>
-                    <!--  -->
+                    <!-- creating a dropdown menu and adding a dropdown toggle to More  -->
                     <li class="nav-item dropdown">
 
                         <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
-                        <!--  -->
+                        <!-- Creating a dropdown menu and adding a list of links within it -->
                         <ul class="dropdown-menu">
                             <a href="http://www.microsoft.com" class="dropdown-item">Microsoft</a>
 
@@ -58,19 +58,48 @@
                             <a href="http://www.microsoft.com" class="dropdown-item">Microsoft</a>
                         </ul>
                     </li> 
-
-
                 </ul>
+                <!-- Alignment of object inside of the container -->
+                <form class="d-flex" action="/testing">
 
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
 
-
-
-
-
+                </form>
             </div>
+
         </div>
     </nav>
 
+    <br>
+    <br>
+
+    <!--  -->
+    <section>
+        <!--  -->
+        <div class="container card">
+            <h1>Bootstrap Components Without Class</h1>
+            <!-- Creating a header centered and with text color of blue -->
+            <h1 class="display-1 text-center text-primary">Components With Class</h1>
+            <!--Creating a button within the containter with different colors of Green, Red, and Blue   -->
+            <button type="button" class="btn btn-success">Green</button>
+            <button type="button" class="btn btn-danger">Red</button>
+            <button type="button" class="btn btn-primary">Blue</button>
+            <!-- Creating an outline button -->
+            <button type="button" class="btn btn-outline-info">info</button>
+    <br>        
+    <hr>       
+    <br>
+            <!--  -->
+            <h2 class="display-4 text-center">Some Paragraph Text</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis natus cumque quo aut iure expedita praesentium corporis autem molestias iste voluptatibus, reprehenderit fugit non repudiandae dolore laborum dolorem minima iusto.</p>
+
+
+
+        </div>
+
+
+    </section>
 
 
 
